@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+a{
+    font-style: bold;
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+

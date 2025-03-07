@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Contacts</title>
+    <link rel="stylesheet" th:href="@{/css/contacts.css}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script th:src="@{/js/contacts.js}" defer></script>
+    
+    <meta name="_csrf" th:content="${_csrf.token}"/>
+    <meta name="_csrf_header" th:content="${_csrf.headerName}"/>
+</head>
+<body>
+    <h1> Google Contacts</h1>
+
+    <a href="/user-info">Back</a>
+    
+    <button onclick="showAddPopup()">Add Contact</button>
+
+    <br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="contact : ${contacts}">
+                <td th:text="${contact.name}">Name</td>
+                <td th:text="${contact.email}">Email</td>
+                <td th:text="${contact.phone}">Phone</td>
+                <td>
+                    <button th:attr="onclick='showEditPopup(\'' + ${contact.resourceName} + '\', \'' + ${contact.name} + '\', \'' + ${contact.email} + '\', \'' + ${contact.phone} + '\')'">Edit</button>
+                    <button th:attr="onclick='deleteContact(\'' + ${contact.resourceName} + '\')'">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p th:if="${error}" th:text="${error}"></p>
+
+    <div id="overlay"></div>
+
+    <div id="addPopup" class="popup">
+        <h2>Add Contact</h2>
+        <form id="addForm">
+            <label>Name: <input type="text" id="addName" required></label>
+            <label>Email: <input type="email" id="addEmail" required></label>
+            <label>Phone: <input type="text" id="addPhone" required></label>
+            <button type="submit">Add</button>
+            <button type="button" onclick="closeAddPopup()">Cancel</button>
+        </form>
+    </div>
+
+    <div id="editPopup" class="popup">
+        <h2>Edit Contact</h2>
+        <form id="editForm">
+            <input type="hidden" id="editResourceName">
+            <label>Name: <input type="text" id="editName" required></label>
+            <label>Email: <input type="email" id="editEmail" required></label>
+            <label>Phone: <input type="text" id="editPhone" required></label>
+            <button type="submit">Save</button>
+            <button type="button" onclick="closeEditPopup()">Cancel</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Login</title>
+    <link rel="stylesheet" th:href="@{/css/googleHome.css}">
+</head>
+<body>
+    <h1>My Profile</h1>
+
+    <div th:if="${firstName}">
+        <p><span style="font-weight: bold;">Full Name:</span> <span th:text="${fullName}"></span></p>
+        <p><span style="font-weight: bold;">First Name:</span> <span th:text="${firstName}"></span></p>
+        <p><span style="font-weight: bold;">Last Name:</span> <span th:text="${lastName}"></span></p>
+        <p><span style="font-weight: bold;">Email:</span> <span th:text="${email}"></span></p>
+        <br/>
+
+        <div class="button-group">
+            <a href="/contacts">Contacts</a>
+            <a href="/logout">Logout</a>
+        </div>
+        
+    </div>
+
+    <div th:unless="${firstName}">
+        <a href="/oauth2/authorization/google">Login with Google</a>
+    </div>
+</body>
+</html>

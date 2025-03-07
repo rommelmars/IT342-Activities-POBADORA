@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cbf2b44e-e1f9-4e81-96c4-f2ee49376e72" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../g7-pobadora-rommel/oauth2login/src/main/java/com/pobadora/oauth2login/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../g7-pobadora-rommel/oauth2login/src/main/java/com/pobadora/oauth2login/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../g7-pobadora-rommel/oauth2login/src/main/java/com/pobadora/oauth2login/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../g7-pobadora-rommel/oauth2login/src/main/java/com/pobadora/oauth2login/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../g7-pobadora-rommel/oauth2login/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../g7-pobadora-rommel/oauth2login/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm/src/main/java/com/pobadora/midterm/midterm/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../midterm/src/main/java/com/pobadora/midterm/midterm/controller/UserController.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2tz9eTQJ7Dl098pFZ1ja8Hnp40I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "Z:/L14X20W21/IT342-Activities-POBADORA/midterm1",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\L14X20W21\IT342-Activities-POBADORA\midterm1\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="midterm1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="midterm1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="midterm [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cbf2b44e-e1f9-4e81-96c4-f2ee49376e72" name="Changes" comment="" />
+      <created>1741344130974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741344130974</updated>
+    </task>
+    <servers />
+  </component>
+</project>
